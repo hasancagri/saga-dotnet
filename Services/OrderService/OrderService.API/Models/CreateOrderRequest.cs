@@ -2,7 +2,7 @@
 
 namespace OrderService.API.Models
 {
-    public partial class CreateOrderRequest
+    public class CreateOrderRequest
     {
         public int UserId { get; set; }
         public List<OrderItemRequest> OrderItems { get; set; } = new List<OrderItemRequest>();
